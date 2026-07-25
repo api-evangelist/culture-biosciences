@@ -1,7 +1,33 @@
 aid: culture-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/culture-biosciences.png
 name: Culture Biosciences
-description: Culture Biosciences is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Culture Biosciences is a South San Francisco TechBio company that builds
+  cloud-connected bioreactor systems and bioprocess development services for
+  cell culture. Its platform pairs automated single-use bioreactors (250mL
+  bench-scale and 5L, plus the Stratyx mobile bioreactor) with Console, a
+  cloud-native software product for real-time monitoring, experiment
+  management, data analytics, and remote collaboration. Through its Nexxys
+  services group the company runs clone/strain/construct screening, process
+  characterization, process development, and bioprocess modeling and
+  simulation for customers working on synthetic biology, protein therapeutics,
+  and viral vectors. Culture Biosciences lets teams outsource and scale
+  bioreactor experiments without scaling their own lab infrastructure. Backed
+  by DCVC, Northpond Ventures, Synthesis Capital, S32, and Cultivian Sandbox
+  Ventures. This profile is maintained in the API Evangelist network; the
+  company operates the Console cloud platform but does not currently publish a
+  public developer API, OpenAPI, SDKs, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/culture-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +37,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- TechBio
+- Bioprocessing
+- Bioreactors
+- Cell Culture
+- Life Sciences
+- Cloud Platform
+- Laboratory Automation
+- Synthetic Biology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/culture-biosciences-domain-security.yml
+- type: Website
+  url: https://www.culturebiosciences.com
+- type: About
+  url: https://www.culturebiosciences.com/about
+- type: Blog
+  url: https://www.culturebiosciences.com/resources
+- type: PrivacyPolicy
+  url: https://www.culturebiosciences.com/privacy-policy
+- type: TermsOfService
+  url: https://www.culturebiosciences.com/terms-of-service
+- type: GitHubOrganization
+  url: https://github.com/culturebiosciences
+- type: SignUp
+  url: https://www.culturebiosciences.com/request-demo
+- type: LLMsTxt
+  url: llms/culture-biosciences-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

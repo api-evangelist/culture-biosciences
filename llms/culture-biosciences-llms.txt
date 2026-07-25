@@ -1,0 +1,22 @@
+# Culture Biosciences
+
+> Culture Biosciences is a South San Francisco TechBio company that builds cloud-connected bioreactor systems and bioprocess development services for cell culture. Its Console cloud platform pairs automated single-use bioreactors (250mL and 5L, plus the Stratyx mobile bioreactor) with real-time monitoring, experiment management, data analytics, and remote collaboration, while its Nexxys services group runs clone/strain/construct screening, process characterization, process development, and bioprocess modeling for synthetic biology, protein therapeutics, and viral vectors. The company operates the Console cloud platform but does not currently publish a public developer API, OpenAPI, SDKs, or developer documentation.
+
+## Company
+- [Website](https://www.culturebiosciences.com): Company home
+- [About](https://www.culturebiosciences.com/about): Company overview and mission
+- [Console](https://www.culturebiosciences.com/console): Cloud-native bioprocess management software
+- [Nexxys Services](https://www.culturebiosciences.com/nexxys): Bioprocess development services
+- [Careers](https://www.culturebiosciences.com/careers): Open roles
+
+## Resources
+- [Resources / Blog](https://www.culturebiosciences.com/resources): White papers, case studies, webinars, and posts
+- [Request a Demo](https://www.culturebiosciences.com/request-demo): Get started with Culture
+
+## Legal
+- [Privacy Policy](https://www.culturebiosciences.com/privacy-policy)
+- [Terms of Service](https://www.culturebiosciences.com/terms-of-service)
+
+## Notes
+- No public developer API, OpenAPI specification, SDKs, CLI, or developer documentation is published as of 2026-07-18.
+- GitHub organization: https://github.com/culturebiosciences (no public repositories).
