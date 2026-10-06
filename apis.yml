@@ -48,7 +48,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -62,6 +62,8 @@ tags:
 - Synthetic Biology
 apis: []
 common:
+- url: https://www.culturebiosciences.com/resources/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/culture-biosciences-domain-security.yml
 - type: Website
